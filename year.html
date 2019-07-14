@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/Favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>საგარეო დახმარების ინფორმაციული მართვის სისტემა</title>
+</head>
+
+<body>
+  <header class="container-fluid header">
+    <a class="logo" href="index.html">
+      <span>eBTPS</span>
+      <h1>ბიუჯეტის გამჭვირვალობისა და ჩართულობის სისტემა</h1>
+    </a>
+    <div class="side-r">
+      <a class="lang" href="#">ENG</a>
+      <div class="right_side drop_r">
+        <div class="dropdown">
+          <button class="btn btn_drop" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            შალვა ზამთარაძე<i class="fa fa-angle-down"></i>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" x-placement="bottom-start"
+            style="position: absolute; transform: translate3d(938px, 37px, 0px); top: 0px; left: 0px; will-change: transform;">
+            <a class="dropdown-item" data-toggle="modal" data-target="#pass_modal">პაროლის შეცვლა</a>
+            <a class="dropdown-item" href="verification.html">მომხმარებლის ვერიფიკაცია</a>
+          </div>
+        </div>
+
+        <a class="pow_off" href="LogIn.html"><i class="fas fa-power-off"></i></a>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="container-fluid">
+    <section class="home_i">
+      <a href="index.html"><i class="fas fa-home"></i></a>
+      <div class="line">2019 წელი</div>
+      <i class="fas fa-check"></i>
+    </section>
+    <div class="right_s butt_padd">
+      <button class="btn or_b first">გზამკვლევი</button>
+      <button class="btn or_b second">კალენდარი</button>
+      <button class="btn or_b vis_b">ღია მონაცემები</button>
+      <button class="btn or_b data_b">ვიზუალიზაცია</button>
+    </div>
+    <h6 class="respo">საქართველოს მასშტაბით გამოკითხვაში მონაწილეობა მიიღო 13,_მა რესპოდენტმა</h6>
+    <div id="accordion" class="container-fluid accordiontwo">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+              aria-controls="collapseOne">
+              პრიორიტეტის ჩამონათვალი
+            </button>
+          </h5>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            <div class="table_ac">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">ბიუჯეტი</th>
+                    <th scope="col">მხარჯავი დაწესებულება/პრიორიტეტი</th>
+                    <th scope="col">რეგისტრ. ნომერი</th>
+                    <th scope="col">სტატუსი</th>
+                    <th scope="col">ოპერაციები</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>01 - სახელმწიფო ბიუჯეტი</td>
+                    <td>01 00 - საქართველოს პარლამენტი და მასთან </td>
+                    <td>ml06g17</td>
+                    <td>დამუშავების
+                      პროცესში</td>
+                    <td><i class="fas fa-eye"></i><i class="fas fa-pen"></i><i class="fas fa-envelope"></i><i
+                        class="fas fa-trash"></i></td>
+                  </tr>
+                  <tr>
+                    <td>01 - სახელმწიფო ბიუჯეტი</td>
+                    <td>ყველა მხარჯავი</td>
+                    <td>ml06g17</td>
+                    <td>გაგზავნილი</td>
+                    <td><i class="fas fa-eye"></i><i class="fas fa-pen"></i><i class="fas fa-envelope"></i><i
+                        class="fas fa-trash"></i></td>
+                  </tr>
+                  <tr>
+                    <td>2018 - 2019 წლის ბიუჯეტი</td>
+                    <td>ყველა პრიორიტეტი</td>
+                    <td>ml06g17</td>
+                    <td>დამუშავების
+                      პროცესში</td>
+                    <td><i class="fas fa-eye"></i><i class="fas fa-pen"></i><i class="fas fa-envelope"></i><i
+                        class="fas fa-trash"></i></td>
+                  </tr>
+                  <tr>
+                    <td>2017 - 2018 წლის ბიუჯეტი</td>
+                    <td>ყველა პრიორიტეტი</td>
+                    <td>ml06g17</td>
+                    <td>გაგზავნილი</td>
+                    <td><i class="fas fa-eye"></i><i class="fas fa-pen"></i><i class="fas fa-envelope"></i><i
+                        class="fas fa-trash"></i></td>
+                  </tr>
+                  <tr>
+                    <td>2018 - 2019 წლის ბიუჯეტი</td>
+                    <td>ყველა პრიორიტეტი</td>
+                    <td>ml06g17</td>
+                    <td>დამუშავების
+                      პროცესში</td>
+                    <td><i class="fas fa-eye"></i><i class="fas fa-pen"></i><i class="fas fa-envelope"></i><i
+                        class="fas fa-trash"></i></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+              aria-expanded="false" aria-controls="collapseTwo">
+              აირჩიეთ ბიუჯეტი
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+              aria-expanded="false" aria-controls="collapseThree">
+              აირჩიეთ ბიუჯეტი
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+              aria-expanded="false" aria-controls="collapseFour">
+              აირჩიეთ ბიუჯეტი
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
+              aria-expanded="false" aria-controls="collapseFive">
+              აირჩიეთ ბიუჯეტი
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
+            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="container-fluid footer">
+    <p class="foo_ri">© 2019. ყველა უფლება დაცულია</p>
+    <div class="right_side">
+      <span>ცხელი ხაზი 1551</span>
+      <a href="http://www.fas.ge/" target="_blank"><img src="assets/images/fas.png"></a>
+    </div>
+  </footer>
+  <div class="modal fade" id="pass_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="importModalTitle">პაროლის შეცვლა</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group login">
+            <label for="">შეიყვანეთ ძველი პაროლი</label>
+            <input type="email" class="form-control" id="" aria-describedby="" placeholder="">
+          </div>
+          <div class="form-group login">
+            <label for="">შეიყვანეთ ახალი პაროლი</label>
+            <input type="email" class="form-control" id="" aria-describedby="" placeholder="">
+          </div>
+          <div class="form-group login">
+            <label for="">გაიმეორეთ ახალი პაროლი</label>
+            <input type="email" class="form-control" id="" aria-describedby="" placeholder="">
+          </div>
+          <div class="popup_b">
+            <button type="button" class="btn popup_s">შეცვლა</button>
+            <button type="button" class="btn popup_c" data-dismiss="modal">დახურვა</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

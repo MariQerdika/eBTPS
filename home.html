@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/Favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>საგარეო დახმარების ინფორმაციული მართვის სისტემა</title>
+</head>
+
+<body>
+  <header class="container-fluid header">
+    <a class="logo" href="index.html">
+      <span>eBTPS</span>
+      <h1>ბიუჯეტის გამჭვირვალობისა და ჩართულობის სისტემა</h1>
+    </a>
+    <div class="side-r">
+      <a class="lang" href="#">ENG</a>
+      <div class="right_side">
+        <a href="LogIn.html">შესვლა</a>
+        <a href="verification.html">რეგისტრაცია</a>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="container-fluid">
+    <div class="row_c">
+      <div class="col-12 col-lg-3 col-xl-2 no-p">
+        <div id="accordionE" class="container-fluid accordiontwo">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                  aria-controls="collapseOne">
+                  <i class="far fa-clock"></i>სამუშაო პერიოდები
+                </button>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <ul class="menu_l">
+                  <li><a href="#">სამუშაო პერიოდების მართვა</a></li>
+                  <li><a href="#">წლები</a></li>
+                  <li><a href="#">ბიუჯეტები</a></li>
+                  <li><a href="#">ორგანიზაციები</a></li>
+                  <li><a href="#">ფაილები</a></li>
+                  <li><a href="#">შეზღუდვები</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  <i class=" fas fa-align-left"></i>რეპორტები
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                <ul class="menu_l">
+                  <li><a href="#">ბიუჯეტები</a></li>
+                  <li><a href="#">ორგანიზაციები</a></li>
+                  <li><a href="#">ფაილები</a></li>
+                  <li><a href="#">შეზღუდვები</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  <i class="fas fa-user-friends"></i> მომხმარებლები
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                <ul class="menu_l">
+                  <li><a href="#">წლები</a></li>
+                  <li><a href="#">ბიუჯეტები</a></li>
+                  <li><a href="#">ორგანიზაციები</a></li>
+                  <li><a href="#">ფაილები</a></li>
+                  <li><a href="#">შეზღუდვები</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-9 col-xl-10">
+        <div class="right_s">
+          <button type="button" class="btn or_b im_b" data-toggle="modal" data-target="#import_modal">იმპორტი</button>
+          <button class="btn or_b del_b">წაშლა</button>
+        </div>
+        <div class="table_ac">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">დასახელება</th>
+                <th scope="col">სტატუსი</th>
+                <th scope="col">დაწყების თარიღი</th>
+                <th scope="col">დასრულების თარიღი</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>01 - სახელმწიფო ბიუჯეტი</td>
+                <td>დასაგეგმი</td>
+                <td>01 იანვარი 2018 წელი</td>
+                <td>31 დეკემბერი 2018 წელი</td>
+              </tr>
+              <tr>
+                <td>01 - სახელმწიფო ბიუჯეტი</td>
+                <td>დასაგეგმი</td>
+                <td>01 იანვარი 2018 წელი</td>
+                <td>31 დეკემბერი 2018 წელი</td>
+              </tr>
+              <tr>
+                <td>2018 - 2019 წლის ბიუჯეტი</td>
+                <td>დასაგეგმი</td>
+                <td>01 იანვარი 2018 წელი</td>
+                <td>31 დეკემბერი 2018 წელი</td>
+              </tr>
+              <tr>
+                <td>2017 - 2018 წლის ბიუჯეტი</td>
+                <td>დასაგეგმი</td>
+                <td>01 იანვარი 2018 წელი</td>
+                <td>31 დეკემბერი 2018 წელი</td>
+              </tr>
+              <tr>
+                <td>2018 - 2019 წლის ბიუჯეტი</td>
+                <td>დასაგეგმი</td>
+                <td>01 იანვარი 2018 წელი</td>
+                <td>31 დეკემბერი 2018 წელი</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="container-fluid footer">
+    <p class="foo_ri">© 2019. ყველა უფლება დაცულია</p>
+    <div class="right_side">
+      <span>ცხელი ხაზი 1551</span>
+      <a href="http://www.fas.ge/" target="_blank"><img src="assets/images/fas.png"></a>
+    </div>
+  </footer>
+  <!-- Modal -->
+  <div class="modal fade" id="import_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="importModalTitle">იმპორტი</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="table_ac">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">დასახელება</th>
+                  <th scope="col">სტატუსი</th>
+                  <th scope="col">დაწყების თარიღი</th>
+                  <th scope="col">დასრულების თარიღი</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><label class="container_ch"><input class="form-check-input" type="checkbox" value=""
+                        id="defaultCheck1">
+                      <span class="checkmark"></span></label>
+                  </td>
+                  <td>01 - სახელმწიფო ბიუჯეტი</td>
+                  <td>დასაგეგმი</td>
+                  <td>01 იანვარი 2018 წელი</td>
+                  <td>31 დეკემბერი 2018 წელი</td>
+                </tr>
+                <tr>
+                  <td><label class="container_ch"><input class="form-check-input" type="checkbox" value=""
+                        id="defaultCheck2">
+                      <span class="checkmark"></span></label>
+                  </td>
+                  <td>01 - სახელმწიფო ბიუჯეტი</td>
+                  <td>დასაგეგმი</td>
+                  <td>01 იანვარი 2018 წელი</td>
+                  <td>31 დეკემბერი 2018 წელი</td>
+                </tr>
+                <tr>
+                  <td><label class="container_ch"><input class="form-check-input" type="checkbox" value=""
+                        id="defaultCheck3">
+                      <span class="checkmark"></span></label>
+                  </td>
+                  <td>2018 - 2019 წლის ბიუჯეტი</td>
+                  <td>დასაგეგმი</td>
+                  <td>01 იანვარი 2018 წელი</td>
+                  <td>31 დეკემბერი 2018 წელი</td>
+                </tr>
+                <tr>
+                  <td><label class="container_ch"><input class="form-check-input" type="checkbox" value=""
+                        id="defaultCheck4">
+                      <span class="checkmark"></span></label>
+                  </td>
+                  <td>2017 - 2018 წლის ბიუჯეტი</td>
+                  <td>დასაგეგმი</td>
+                  <td>01 იანვარი 2018 წელი</td>
+                  <td>31 დეკემბერი 2018 წელი</td>
+                </tr>
+                <tr>
+                  <td><label class="container_ch"><input class="form-check-input" type="checkbox" value=""
+                        id="defaultCheck5">
+                      <span class="checkmark"></span></label>
+                  </td>
+                  <td>2018 - 2019 წლის ბიუჯეტი</td>
+                  <td>დასაგეგმი</td>
+                  <td>01 იანვარი 2018 წელი</td>
+                  <td>31 დეკემბერი 2018 წელი</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="popup_b">
+            <button type="button" class="btn popup_s">იმპორტი</button>
+            <button type="button" class="btn popup_c" data-dismiss="modal">დახურვა</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
