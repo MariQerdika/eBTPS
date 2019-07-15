@@ -5,7 +5,10 @@
 p, h1,h2, h6, label {
   margin: 0;
 }
-.logo_h, .logo span, .lang {
+.data_g, .res_b {
+  font-family: 'MarkGEO-Bold';
+}
+.logo_h, .logo span, .lang, .table_g thead th {
   font-family: 'Calibri';
 }
 .logo h1, .right_side a, .foo_ri, .btn, .respo, .title_b, .login label, .line, .reg_blok label, .table_ac  thead, .change_h, #importModalTitle  {
@@ -17,7 +20,7 @@ footer span, .log_b, .error_p, .table_ac  tbody, .btn_drop, .right_side .dropdow
 .title_s, .numb, .footer_m a  {
   font-family: 'BPGMrgvlovani2010';
 }
-.main_h {
+.main_h, .budget_th {
   font-family: 'MarkGEO-Light';
 }
 .main_bg {
@@ -180,8 +183,56 @@ footer span, .log_b, .error_p, .table_ac  tbody, .btn_drop, .right_side .dropdow
   text-decoration: none;
   font-size: 14px;
 }
-/* home page style */
 
+/* home page style */
+.data_g {
+  color: #216BC4;
+}
+.thead_t {
+  background: #fff;
+
+  border-left: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
+thead .thead_t th {
+  text-align: center !important;
+}
+.praphic_p {
+  padding: 70px;
+}
+.praphic_p table thead {
+  background-color: #DCE4EB !important;
+}
+.table_ac .table_g  th {
+text-align: left;
+}
+.fa-list-ol {
+  padding: 0 15px 0 30px;
+  color:#848282;
+}
+#chart_m {
+  padding-top: 100px;
+}
+.table_ac .table_g td  {
+  padding: 22px 6px;
+}
+.fa-percent {
+  color:#848282;
+}
+th .fa-info-circle {
+  font-size: 20px;
+}
+th .fa-eye {
+  font-size: 20px;
+}
+.budget_th {
+  color: #616161;
+  padding: 30px 0;
+}
+.res_b {
+  color: #686868;
+  padding-top: 30px;
+}
 .main_bg {
   background-image: url(../images/bg.png)
 }
@@ -242,7 +293,7 @@ footer span, .log_b, .error_p, .table_ac  tbody, .btn_drop, .right_side .dropdow
 }
 #main {
   min-height: 90.8vh;
-  padding: 0 0 20px 0;
+  /* padding: 0 0 20px 0; */
 }
 #main .years {
   display: flex;
@@ -929,6 +980,18 @@ margin-bottom: 0;
     font-size: 12px !important;
     text-align: left;
   }
+  .data_g, .budget_th, .res_b {
+    font-size: 18px;
+  }
+  .praphic_p {
+    padding: 20px 0 0 0;
+  }
+  .budget_th {
+    padding: 15px 0;
+  }
+  .table_g {
+    overflow-x: auto;
+  }
  }
 
  @media (max-width: 767.98px) { 
@@ -958,4 +1021,7 @@ margin-bottom: 0;
      padding-top: 10px;
      padding-bottom: 10px;
    }
+   .data_g, .budget_th, .res_b {
+    font-size: 12px;
+  }
   }
