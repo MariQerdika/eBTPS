@@ -233,9 +233,6 @@ th .fa-eye {
   color: #686868;
   padding-top: 30px;
 }
-.main_bg {
-  background-image: url(../images/bg.png)
-}
 .header {
   background-color: #2680EB;
   display: flex;
