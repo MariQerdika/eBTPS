@@ -98,6 +98,7 @@ footer span, .log_b, .error_p, .table_ac  tbody, .btn_drop, .right_side .dropdow
 .col_i:hover {
   text-decoration: none;
   transform: scale(1.1);
+  transition: all .3s ease-in-out; 
 }
 .col_i:hover .title_s {
   color: #02FCDB;
