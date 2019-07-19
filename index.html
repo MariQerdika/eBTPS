@@ -3,23 +3,41 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/Favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/fonts.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>ბიუჯეტის გამჭირვალობის და ჩართულობის სისტემა</title>
   </head>
   <body>
     <body class="main_bg">
-      <header class="header_m">
-        <h1 class="main_h">ბიუჯეტის გამჭირვალობის და ჩართულობის სისტემა</h1>
-        <h2 class="logo_h">eBTPS</h2>
-      </header>
+        <header class="container-fluid header">
+            <a class="logo" href="index.html">
+              <span>eBTPS</span>
+              <h1>ბიუჯეტის გამჭვირვალობისა და ჩართულობის სისტემა</h1>
+            </a>
+            <div class="side-r">
+              <a class="lang" href="#">ENG</a>
+              <div class="right_side">
+                <a href="" data-toggle="modal" data-target="#pass_modal">შესვლა</a>
+                <a href="" data-toggle="modal" data-target="#registration_modal">რეგისტრაცია</a>
+              </div>
+            </div>
+          </header>
       <main>
+        <section class="name_e">
+          <h2 class="main_h">ბიუჯეტის გამჭირვალობის და ჩართულობის სისტემა</h2>
+          <h2 class="logo_h">eBTPS</h2>
+        </section>
         <div class="row_m">
-          <a class="col_i" href="home.html">
+          <a class="col_i" href="year.html">
             <div class="img_a img_w"></div>
             <h6 class="title_s">დაგეგმე ბიუჯეტი</h6>
           </a>
-          <a class="col_i" href="year.html">
+          <a class="col_i" href="home.html">
             <div class="img_b img_w"></div>
             <h6 class="title_s">მოქალაქის გზამკვლევი</h6>
           </a>
@@ -27,11 +45,11 @@
             <div class="img_c img_w"></div>
             <h6 class="title_s">ბიუჯეტის გრაფიკული მონაცემები</h6>
           </a>
-          <a class="col_i" href="home.html">
+          <a class="col_i" href="work_period.html">
             <div class="img_d img_w"></div>
             <h6 class="title_s">საბიუჯეტო კალენდარი</h6>
           </a>
-          <a class="col_i" href="year.html">
+          <a class="col_i" href="">
             <div class="img_e img_w"></div>
             <h6 class="title_s">საჯარო ფინანსების მართვა</h6>
           </a>
@@ -44,5 +62,141 @@
           <a class="web_m foote_b" href="https://mof.ge/" target="_blank">ვებ-გვერდი: www.mof.ge</a>
         </div>
       </footer>
+
+
+
+  <div class="modal fade" id="pass_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="importModalTitle">შესვლა</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <section class="login_p text-center">
+            <form>
+              <div class="form-group login">
+                <label for="exampleInputEmail1">ელ. ფოსტა</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+              </div>
+              <div class="form-group login">
+                <label for="exampleInputPassword1">პაროლი</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                <a href="#" class="log_b"  data-toggle="modal" data-target="#recover_modal">დაგავიწყდა პაროლი?</a>
+              </div>
+              <button type="submit" class="btn btn-primary">შესვლა</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="modal fade" id="registration_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="importModalTitle">რეგისტრაცია</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <section class="login_p text-center">
+          <form>
+            <div class="form-group login">
+              <label for="exampleInputEmail1">ელ. ფოსტა</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+            </div>
+            <div class="form-group login">
+              <label for="exampleInputPassword1">პაროლი</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+            </div>
+              <div class="form-group login">
+              <label for="exampleInputPassword1">გაიმეორეთ პაროლი</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+           
+            </div>
+            <button type="submit" class="btn btn-primary">რეგისტრაია</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="modal fade" id="recover_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="importModalTitle">პაროლის აღდგენა</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <section class="login_p recover_b text-center">
+            <form>
+                <p class="recover_t">გთხოვთ შეიყვანოთ ის ელ. ფოსტა რომლითაც სისტემაში ხართ დარეგისტრირებული. აღდგენის შემდეგ, ელ. ფოსტაზე მოგივათ 
+                    განახლებული პაროლი, რითაც შეძლებთ სისტემაში შესვლას.</p>
+              <div class="form-group login">
+                <label for="exampleInputEmail1">შეიყვანეთ ელ. ფოსტა</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+              </div>
+              <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#recover_modal">აღდგენა</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="modal fade" id="pass_recover_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="importModalTitle">პაროლის აღდგენა</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <section class="login_p recover_b text-center">
+            <form>
+                <p class="recover_t">განახლებული პაროლი გადაიგზავნა თქვენს მიერ მითითებულ ელ. ფოსტაზე.გთხოვთ შეამოწმოთ ელ.ფოსტა.</p>
+              <button type="submit" class="btn btn-primary">შესვლის გვერდზე გადასვლა</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
   </body>
 </html>
