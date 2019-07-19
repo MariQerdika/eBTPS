@@ -1,21 +1,4 @@
 @font-face {
-  font-family: 'BPGNinoMtavruli-Bold';
-  src: url('../fonts/BPGNinoMtavruli-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/BPGNinoMtavruli-Bold.otf')  format('opentype'),
-       url('../fonts/BPGNinoMtavruli-Bold.woff') format('woff'), url('../fonts/BPGNinoMtavruli-Bold.ttf')  format('truetype'), url('../fonts/BPGNinoMtavruli-Bold.svg#BPGNinoMtavruli-Bold')
-      format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'BPGNinoMtavruli';
-  src: url('../fonts/BPGNinoMtavruli.eot?#iefix') format('embedded-opentype'),  url('../fonts/BPGNinoMtavruli.woff') format('woff'),
-   url('../fonts/BPGNinoMtavruli.ttf')  format('truetype'), url('../fonts/BPGNinoMtavruli.svg#BPGNinoMtavruli') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'BPGMrgvlovani2010';
   src: url('../fonts/BPGMrgvlovani2010.eot?#iefix') format('embedded-opentype'),  url('../fonts/BPGMrgvlovani2010.woff') format('woff'), url('../fonts/BPGMrgvlovani2010.ttf')
   format('truetype'), url('../fonts/BPGMrgvlovani2010.svg#BPGMrgvlovani2010') format('svg');
@@ -48,10 +31,12 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
 @font-face {
-  font-family: 'BPGGlaho';
-  src: url('../fonts/BPGGlaho.eot?#iefix') format('embedded-opentype'),  url('../fonts/BPGGlaho.woff') format('woff'),
-   url('../fonts/BPGGlaho.ttf')  format('truetype'), url('../fonts/BPGGlaho.svg#BPGGlaho') format('svg');
+  font-family: 'MarkGEOCAPS-Light';
+  src: url('../fonts/MarkGEOCAPS-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/MarkGEOCAPS-Light.woff') format('woff'), url('../fonts/MarkGEOCAPS-Light.ttf') 
+   format('truetype'), url('../fonts/MarkGEOCAPS-Light.svg#MarkGEOCAPS-Light') format('svg');
   font-weight: normal;
   font-style: normal;
 }
