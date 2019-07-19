@@ -14,7 +14,7 @@
   <title>საგარეო დახმარების ინფორმაციული მართვის სისტემა</title>
 </head>
 
-<body>
+<body class="main_bg">
   <header class="container-fluid header">
     <a class="logo" href="index.html">
       <span>eBTPS</span>
@@ -23,12 +23,13 @@
     <div class="side-r">
       <a class="lang" href="#">ENG</a>
       <div class="right_side">
-        <a href="LogIn.html">შესვლა</a>
-        <a href="verification.html">რეგისტრაცია</a>
+        <a href="" data-toggle="modal" data-target="#pass_modal">შესვლა</a>
+        <a href="" data-toggle="modal" data-target="#registration_modal">რეგისტრაცია</a>
       </div>
     </div>
   </header>
-  <main id="main" class="container-fluid">
+  <main id="main">
+    <div class="container-fluid">
     <div class="row praphic_p">
       <div class="col-12  col-xl-8">
         <h4 class="data_g">ბიუჯეტის გრაფიკული მონაცემები(ვიზუალიზაცია)</h4>
@@ -42,64 +43,64 @@
               </tr>
               <tr class="thead_t">
                 <th>საქართველოს ფინანსთა სამინისტრო</th>   
-                <th><i class="fas fa-info-circle"></i></th>
+                <th><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip" title="ინფორმაცია"></i></th>
                 <th>2017 წლის ფაქტი</th>
                 <th>2017 წლის გეგმა</th>
-                <th><i class="fas fa-eye"></i></th>
-                <th>დაგეგმე 2019 წელი<i class="fas fa-list-ol"></i> <i class="fas fa-percent"></i></th>
+                <th><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip" title="კომენტარი"></i></th>
+                <th>დაგეგმე 2019 წელი<i class="fas fa-list-ol" data-placement="right" data-toggle="tooltip" title="" data-original-title="ნომინალური"></i> <i class="fas fa-percent" data-placement="right" data-toggle="tooltip" title="" data-original-title="პროცენტული"></i></th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>01 - სახელმწიფო ბიუჯეტი</td>
-                <td><i class="fas fa-info-circle"></i></td>
+                <td><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip" title="ინფორმაცია"></i></td>
                 <td>ml06g17</td>
                 <td>დამუშავების
                   პროცესში</td>
-                <td><i class="fas fa-eye"></i></td>
+                <td><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip" title="კომენტარი"></i></td>
                 <td></td>
               </tr>
               <tr>
                 <td>01 - სახელმწიფო ბიუჯეტი</td>
-                <td><i class="fas fa-info-circle"></i></td>
+                <td><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip" title="ინფორმაცია"></i></td>
                 <td>ml06g17</td>
                 <td>გაგზავნილი</td>
-                <td><i class="fas fa-eye"></i></td>
+                <td><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip" title="კომენტარი"></i></td>
                 <td></td>
               </tr>
               <tr>
                 <td>2018 - 2019 წლის ბიუჯეტი</td>
-                <td><i class="fas fa-info-circle"></i></td>
+                <td><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip" title="ინფორმაცია"></i></td>
                 <td>ml06g17</td>
                 <td>დამუშავების
                   პროცესში</td>
-                <td><i class="fas fa-eye"></i></td>
+                <td><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip" title="კომენტარი"></i></td>
                 <td></td>
               </tr>
               <tr>
                 <td>2017 - 2018 წლის ბიუჯეტი</td>
-                <td><i class="fas fa-info-circle"></i></td>
+                <td><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip" title="ინფორმაცია"></i></td>
                 <td>ml06g17</td>
                 <td>გაგზავნილი</td>
-                <td><i class="fas fa-eye"></i></td>
+                <td><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip" title="კომენტარი"></i></td>
                 <td></td>
               </tr>
               <tr>
                 <td>2018 - 2019 წლის ბიუჯეტი</td>
-                <td><i class="fas fa-info-circle"></i></td>
+                <td><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip" title="ინფორმაცია"></i></td>
                 <td>ml06g17</td>
                 <td>დამუშავების
                   პროცესში</td>
-                <td><i class="fas fa-eye"></i></td>
+                <td><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip" title="კომენტარი"></i></td>
                 <td></td>
               </tr>
               <tr>
                 <td>2018 - 2019 წლის ბიუჯეტი</td>
-                <td><i class="fas fa-info-circle"></i></td>
+                <td><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip" title="ინფორმაცია"></i></td>
                 <td>ml06g17</td>
                 <td>დამუშავების
                   პროცესში</td>
-                <td><i class="fas fa-eye"></i></td>
+                <td><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip" title="კომენტარი"></i></td>
                 <td></td>
               </tr>
             </tbody>
@@ -112,6 +113,7 @@
             <div id="chart_first"  style="height: 400px"></div>
           </section>  
       </div>
+    </div>
     </div>
   </main>
   <footer class="container-fluid footer">
@@ -206,6 +208,137 @@
       </div>
     </div>
   </div>
+
+
+  <div class="modal fade" id="pass_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="importModalTitle">რეგისტრაცია</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <section class="login_p text-center">
+            <form>
+              <div class="form-group login">
+                <label for="exampleInputEmail1">ელ. ფოსტა</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+              </div>
+              <div class="form-group login">
+                <label for="exampleInputPassword1">პაროლი</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+                <a href="#" class="log_b" data-toggle="modal" data-target="#recover_modal">დაგავიწყდა პაროლი?</a>
+              </div>
+              <button type="submit" class="btn btn-primary">შესვლა</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+  <div class="modal fade" id="registration_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="importModalTitle">რეგისტრაცია</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <section class="login_p text-center">
+          <form>
+            <div class="form-group login">
+              <label for="exampleInputEmail1">ელ. ფოსტა</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+            </div>
+            <div class="form-group login">
+              <label for="exampleInputPassword1">პაროლი</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+            </div>
+              <div class="form-group login">
+              <label for="exampleInputPassword1">გაიმეორეთ პაროლი</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+           
+            </div>
+            <button type="submit" class="btn btn-primary">რეგისტრაია</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="modal fade" id="recover_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="importModalTitle">პაროლის აღდგენა</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <section class="login_p recover_b text-center">
+          <form>
+              <p class="recover_t">გთხოვთ შეიყვანოთ ის ელ. ფოსტა რომლითაც სისტემაში ხართ დარეგისტრირებული. აღდგენის შემდეგ, ელ. ფოსტაზე მოგივათ 
+                  განახლებული პაროლი, რითაც შეძლებთ სისტემაში შესვლას.</p>
+            <div class="form-group login">
+              <label for="exampleInputEmail1">შეიყვანეთ ელ. ფოსტა</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+            </div>
+            <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#recover_modal">აღდგენა</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="modal fade" id="pass_recover_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="importModalTitle">პაროლის აღდგენა</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <section class="login_p recover_b text-center">
+          <form>
+              <p class="recover_t">განახლებული პაროლი გადაიგზავნა თქვენს მიერ მითითებულ ელ. ფოსტაზე.გთხოვთ შეამოწმოთ ელ.ფოსტა.</p>
+            <button type="submit" class="btn btn-primary">შესვლის გვერდზე გადასვლა</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -224,7 +357,8 @@
           options3d: {
             enabled: true,
             alpha: 45,
-            beta: 0
+            beta: 0,
+            
           }
         },
        
@@ -236,6 +370,7 @@
             allowPointSelect: true,
             cursor: 'pointer',
             depth: 35,
+            
             dataLabels: {
               enabled: true,
               format: '{point.name}'
@@ -260,53 +395,14 @@
           ]
         }]
       });
-      Highcharts.chart('chart_second', {
-        chart: {
-          type: 'pie',
-          options3d: {
-            enabled: true,
-            alpha: 45,
-            beta: 0
-          }
-        },
-        title: {
-          text: 'დაფინანსების მიზნობრიობა'
-        },
-        tooltip: {
-          pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-        },
-        plotOptions: {
-          pie: {
-            allowPointSelect: true,
-            cursor: 'pointer',
-            depth: 35,
-            dataLabels: {
-              enabled: true,
-              format: '{point.name}'
-            }
-          }
-        },
-        series: [{
-          type: 'pie',
-          name: 'Browser share',
-          data: [
-            ['Firefox', 45.0],
-            ['IE', 26.8],
-            {
-              name: 'Chrome',
-              y: 12.8,
-              sliced: true,
-              selected: true
-            },
-            ['Safari', 8.5],
-            ['Opera', 6.2],
-            ['Others', 0.7]
-          ]
-        }]
-      });
+    
   
   
-  
+
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
   
     </script>
 </body>
