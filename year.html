@@ -14,7 +14,7 @@
   <title>საგარეო დახმარების ინფორმაციული მართვის სისტემა</title>
 </head>
 
-<body>
+<body class="main_bg">
   <header class="container-fluid header">
     <a class="logo" href="index.html">
       <span>eBTPS</span>
@@ -31,184 +31,219 @@
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" x-placement="bottom-start"
             style="position: absolute; transform: translate3d(938px, 37px, 0px); top: 0px; left: 0px; will-change: transform;">
             <a class="dropdown-item" data-toggle="modal" data-target="#pass_modal">პაროლის შეცვლა</a>
-            <a class="dropdown-item" href="verification.html">მომხმარებლის ვერიფიკაცია</a>
+            <a class="dropdown-item" href="" data-toggle="modal" data-target="#verification_one_modal">მომხმარებლის ვერიფიკაცია</a>
           </div>
         </div>
-
         <a class="pow_off" href="LogIn.html"><i class="fas fa-power-off"></i></a>
       </div>
     </div>
   </header>
-  <main id="main" class="container-fluid">
-    <section class="home_i">
-      <a href="index.html"><i class="fas fa-home"></i></a>
-      <div class="line">2019 წელი</div>
-      <i class="fas fa-check"></i>
-    </section>
-    <div class="right_s butt_padd">
-      <button class="btn or_b first">გზამკვლევი</button>
-      <button class="btn or_b second">კალენდარი</button>
-      <button class="btn or_b vis_b">ღია მონაცემები</button>
-      <button class="btn or_b data_b">ვიზუალიზაცია</button>
+  <main id="main">
+    <div class="container-fluid">
+      <div class="praphic_p">
+    <div class="plan_b">
+      <h4 class="data_g">დაგეგმე ბიუჯეტი</h2>
+      <div class="file_f">
+          <select class="select custom-select-sm">
+              <option selected>2019 წელი</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <button class="safe_b">ფაილების საცავი</button>
+      </div>
+      <h5 class="budget_th">გამოკითხვაში მონაწილეობა მიიღო 13,607_მა რესპოდენტმა</h6>
     </div>
-    <h6 class="respo">საქართველოს მასშტაბით გამოკითხვაში მონაწილეობა მიიღო 13,_მა რესპოდენტმა</h6>
-    <div id="accordion" class="container-fluid accordiontwo">
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h5 class="mb-0">
-            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-              aria-controls="collapseOne">
-              პრიორიტეტის ჩამონათვალი
-            </button>
-          </h5>
+    <div class="table_y">
+      <p class="head_t">თქვენს მიერ დაგეგმილი ბიუჯეტები</p>
+      <div class="table_ac">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">ბიუჯეტი</th>
+                <th scope="col">მხარჯავი დაწესებულება/პრიორიტეტი</th>
+                <th scope="col">რეგისტრ. ნომერი</th>
+                <th scope="col">სტატუსი</th>
+                <th scope="col">ოპერაციები</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>01 - სახელმწიფო ბიუჯეტი</td>
+                <td>01 00 - საქართველოს პარლამენტი და მასთან </td>
+                <td>ml06g17</td>
+                <td>დამუშავების
+                  პროცესში</td>
+                <td><i class="fas fa-eye" data-toggle="tooltip"  data-placement="right" title="დათვალიერება"></i><i class="fas fa-pen" data-placement="right" data-toggle="tooltip"  title="რედაქტირება"></i><i class="fas fa-envelope" data-placement="right" data-toggle="tooltip"  title="გაგზავნა"></i><i
+                    class="fas fa-trash" data-placement="right" data-toggle="tooltip"  title="წაშლა"></i></td>
+              </tr>
+              <tr>
+                <td>01 - სახელმწიფო ბიუჯეტი</td>
+                <td>ყველა მხარჯავი</td>
+                <td>ml06g17</td>
+                <td>გაგზავნილი</td>
+                <td><i class="fas fa-eye" data-toggle="tooltip"  data-placement="right" title="დათვალიერება"></i><i class="fas fa-pen" data-placement="right" data-toggle="tooltip"  title="რედაქტირება"></i><i class="fas fa-envelope" data-placement="right" data-toggle="tooltip"  title="გაგზავნა"></i><i
+                    class="fas fa-trash"data-placement="right" data-toggle="tooltip"  title="წაშლა"></i></td>
+              </tr>
+              <tr>
+                <td>2018 - 2019 წლის ბიუჯეტი</td>
+                <td>ყველა პრიორიტეტი</td>
+                <td>ml06g17</td>
+                <td>დამუშავების
+                  პროცესში</td>
+                <td><i class="fas fa-eye"data-toggle="tooltip"  data-placement="right" title="დათვალიერება"></i><i class="fas fa-pen" data-placement="right" data-toggle="tooltip"  title="რედაქტირება"></i><i class="fas fa-envelope" data-placement="right" data-toggle="tooltip"  title="გაგზავნა"></i><i
+                    class="fas fa-trash"data-placement="right" data-toggle="tooltip"  title="წაშლა"></i></td>
+              </tr>
+              <tr>
+                <td>2017 - 2018 წლის ბიუჯეტი</td>
+                <td>ყველა პრიორიტეტი</td>
+                <td>ml06g17</td>
+                <td>გაგზავნილი</td>
+                <td><i class="fas fa-eye"data-toggle="tooltip"  data-placement="right" title="დათვალიერება"></i><i class="fas fa-pen" data-placement="right" data-toggle="tooltip"  title="რედაქტირება"></i><i class="fas fa-envelope" data-placement="right" data-toggle="tooltip"  title="გაგზავნა"></i><i
+                    class="fas fa-trash"data-placement="right" data-toggle="tooltip"  title="წაშლა"></i></td>
+              </tr>
+              <tr>
+                <td>2018 - 2019 წლის ბიუჯეტი</td>
+                <td>ყველა პრიორიტეტი</td>
+                <td>ml06g17</td>
+                <td>დამუშავების
+                  პროცესში</td>
+                <td><i class="fas fa-eye" data-toggle="tooltip"  data-placement="right" title="დათვალიერება"></i><i class="fas fa-pen" data-placement="right" data-toggle="tooltip"  title="რედაქტირება"></i><i class="fas fa-envelope" data-placement="right" data-toggle="tooltip"  title="გაგზავნა"></i><i
+                    class="fas fa-trash"data-placement="right" data-toggle="tooltip"  title="წაშლა"></i></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-          <div class="card-body">
-            <div class="table_ac">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">ბიუჯეტი</th>
-                    <th scope="col">მხარჯავი დაწესებულება/პრიორიტეტი</th>
-                    <th scope="col">რეგისტრ. ნომერი</th>
-                    <th scope="col">სტატუსი</th>
-                    <th scope="col">ოპერაციები</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>01 - სახელმწიფო ბიუჯეტი</td>
-                    <td>01 00 - საქართველოს პარლამენტი და მასთან </td>
-                    <td>ml06g17</td>
-                    <td>დამუშავების
-                      პროცესში</td>
-                    <td><i class="fas fa-eye"></i><i class="fas fa-pen"></i><i class="fas fa-envelope"></i><i
-                        class="fas fa-trash"></i></td>
-                  </tr>
-                  <tr>
-                    <td>01 - სახელმწიფო ბიუჯეტი</td>
-                    <td>ყველა მხარჯავი</td>
-                    <td>ml06g17</td>
-                    <td>გაგზავნილი</td>
-                    <td><i class="fas fa-eye"></i><i class="fas fa-pen"></i><i class="fas fa-envelope"></i><i
-                        class="fas fa-trash"></i></td>
-                  </tr>
-                  <tr>
-                    <td>2018 - 2019 წლის ბიუჯეტი</td>
-                    <td>ყველა პრიორიტეტი</td>
-                    <td>ml06g17</td>
-                    <td>დამუშავების
-                      პროცესში</td>
-                    <td><i class="fas fa-eye"></i><i class="fas fa-pen"></i><i class="fas fa-envelope"></i><i
-                        class="fas fa-trash"></i></td>
-                  </tr>
-                  <tr>
-                    <td>2017 - 2018 წლის ბიუჯეტი</td>
-                    <td>ყველა პრიორიტეტი</td>
-                    <td>ml06g17</td>
-                    <td>გაგზავნილი</td>
-                    <td><i class="fas fa-eye"></i><i class="fas fa-pen"></i><i class="fas fa-envelope"></i><i
-                        class="fas fa-trash"></i></td>
-                  </tr>
-                  <tr>
-                    <td>2018 - 2019 წლის ბიუჯეტი</td>
-                    <td>ყველა პრიორიტეტი</td>
-                    <td>ml06g17</td>
-                    <td>დამუშავების
-                      პროცესში</td>
-                    <td><i class="fas fa-eye"></i><i class="fas fa-pen"></i><i class="fas fa-envelope"></i><i
-                        class="fas fa-trash"></i></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+        
+    </div>
+    <div class="plan_s">
+      <p class="head_t">დაგეგმვა</p>
+        <div class="file_f ">
+          <select class="select custom-select-sm">
+              <option selected>2019 წელი</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select class="select custom-select-sm">
+              <option selected>2019 წელი</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select class="select custom-select-sm">
+              <option selected>2019 წელი</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <select class="select custom-select-sm">
+              <option selected>2019 წელი</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <button class="safe_b">დაწყება</button>
+        </div>
+        <div class="row">
+        <div class="col-12 col-lg-8">
+          <div class="table_ac">
+            <table class="table table_g">
+              <thead>
+                <tr>
+                  <th colspan="2">სტატუსი: დამუშავების პროცესში</th>   
+                  <th colspan="4">თანხები ათას ლარებში</th>
+                </tr>
+                <tr class="thead_t">
+                  <th>საქართველოს ფინანსთა სამინისტრო</th>   
+                  <th><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip"  title="ინფორმაცია"></i></th>
+                  <th>2017 წლის ფაქტი</th>
+                  <th>2017 წლის გეგმა</th>
+                  <th><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip"  title="კომენტარი"></i></th>
+                  <th>დაგეგმე 2019 წელი<i class="fas fa-list-ol" data-placement="right" data-toggle="tooltip"  title="ნომინალური"></i> <i class="fas fa-percent" data-placement="right" data-toggle="tooltip"  title="პროცენტული"></i></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>01 - სახელმწიფო ბიუჯეტი</td>
+                  <td><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip"  title="ინფორმაცია"></i></td>
+                  <td>ml06g17</td>
+                  <td>დამუშავების
+                    პროცესში</td>
+                  <td><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip"  title="კომენტარი"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>01 - სახელმწიფო ბიუჯეტი</td>
+                  <td><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip"  title="ინფორმაცია"></i></td>
+                  <td>ml06g17</td>
+                  <td>გაგზავნილი</td>
+                  <td><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip"  title="კომენტარი"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>2018 - 2019 წლის ბიუჯეტი</td>
+                  <td><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip"  title="ინფორმაცია"></i></td>
+                  <td>ml06g17</td>
+                  <td>დამუშავების
+                    პროცესში</td>
+                  <td><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip"  title="კომენტარი"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>2017 - 2018 წლის ბიუჯეტი</td>
+                  <td><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip"  title="ინფორმაცია"></i></td>
+                  <td>ml06g17</td>
+                  <td>გაგზავნილი</td>
+                  <td><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip"  title="კომენტარი"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>2018 - 2019 წლის ბიუჯეტი</td>
+                  <td><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip"  title="ინფორმაცია"></i></td>
+                  <td>ml06g17</td>
+                  <td>დამუშავების
+                    პროცესში</td>
+                  <td><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip"  title="კომენტარი"></i></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>2018 - 2019 წლის ბიუჯეტი</td>
+                  <td><i class="fas fa-info-circle" data-placement="right" data-toggle="tooltip"  title="ინფორმაცია"></i></td>
+                  <td>ml06g17</td>
+                  <td>დამუშავების
+                    პროცესში</td>
+                  <td><i class="fas fa-comment-dots" data-placement="right" data-toggle="tooltip"  title="კომენტარი"></i></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="left_s">
+            <p class="lefts_h">აღწერა და მიზანი</p>
+            <p class="left_side_c">ლორემ იპსუმ აესახა დასრესა იმისმა გამოსდგომია ვოლოდავ მძულს მიწაზე გეწყინებათ. მომეფიქრა დაამარცხებინე საუცხოოა საყირების, ვიდეომაგნიტოფონების გაირბენს პირმომტვრეულს ბატკანს. </p>
+            <p class="lefts_h">საბოლოო შედეგი</p>
+            <p class="left_side_c">ლორემ იპსუმ აესახა დასრესა იმისმა გამოსდგომია ვოლტერს გადალახოს თქვენნაირი რომანს, ჩვენიანი, ბოდავ მძულს მიწაზე გეწყინებათ. მომეფიქრა დაამარცხებინე საუცხოოა საყირების, ვიდეომაგნიტოფონების გაირბენს პირმომტვრეულს ბატკანს. </p>
+            <p class="lefts_h">საბოლოო შედეგის ინდიკატორი</p>
+            <p class="left_side_c">ლორემ იპსუმ აესახა დასლახოს თქვენნაირი რომანს, ჩვენიანი, ბოდავ მძულს მიწაზე გეწყინებათ. მომეფიქრა დაამარცხებინე საუცხოოა საყირების, ვიდეომაგნიტოფონების გაირბენს პირმომტვრეულს ბატკანს. </p>
+            <p class="lefts_h">აღწერა და მიზანი</p>
+            <p class="left_side_c">ლორემ იპსუმ აესახა დასრესა იმისმა გამოსდგომია ვებათ. მომეფიქრა დაამარცხებინე საუცხოოა საყირების, ვიდეომაგნიტოფონების გაირბენს პირმომტვრეულს ბატკანს. </p>
+            <p class="lefts_h">აღწერა და მიზანი</p>
+            <p class="left_side_c">ლორემ იპსუმ აესახა დასრესა იმისმა გამოსდგომია ვოლტერს გადალახოს თქვენნაირი რომანს, ჩვენიანი, ბოდავ მძულს მიწაზე გეწყინებათ. მომეფიქრა დაამარცხებინე საუცხოოა საყირების, ვიდეომაგნიტოფონების გაირბენს პირმომტვრეულს ბატკანს. </p>
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h5 class="mb-0">
-            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
-              aria-expanded="false" aria-controls="collapseTwo">
-              აირჩიეთ ბიუჯეტი
-            </button>
-          </h5>
-        </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h5 class="mb-0">
-            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-              aria-expanded="false" aria-controls="collapseThree">
-              აირჩიეთ ბიუჯეტი
-            </button>
-          </h5>
-        </div>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingFour">
-          <h5 class="mb-0">
-            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
-              aria-expanded="false" aria-controls="collapseFour">
-              აირჩიეთ ბიუჯეტი
-            </button>
-          </h5>
-        </div>
-
-        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingFive">
-          <h5 class="mb-0">
-            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
-              aria-expanded="false" aria-controls="collapseFive">
-              აირჩიეთ ბიუჯეტი
-            </button>
-          </h5>
-        </div>
-
-        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-            moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-            Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-            shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-            proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-            aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-          </div>
-        </div>
+      <div class="button_d">
+        <button type="submit" class="save" value="Submit">შენახვა</button>
+        <button type="submit" class="send" value="Submit">გაგზავნა</button>
+        <button type="submit" class="priorities" value="Submit">პრიორიტეტების ჭრილი</button>
       </div>
     </div>
+    </div>
+    </div>
+  </div>
   </main>
   <footer class="container-fluid footer">
     <p class="foo_ri">© 2019. ყველა უფლება დაცულია</p>
@@ -248,6 +283,112 @@
       </div>
     </div>
   </div>
+
+  <div class="modal fade" id="verification_one_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="importModalTitle">ვერიფიკაცია</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <section class="field_error_popup container reg_blok">
+              <span class="error_p">ინფორმაციის გასაგზავნად გთხოვთ შეავსოთ ქვემოთმოცემული ველები</span>
+            </section>
+            <section class="container reg_blok">
+              <form>
+                <div class="row">
+                  <div class="col-12 col-sm-6">
+                    <div class="form-group">
+                      <label for="pn">პირადი #</label>
+                      <input type="text" class="form-control" id="#" aria-describedby="#" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label>სახელი</label>
+                      <input type="text" class="form-control" id="#" aria-describedby="#" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label>გვარი</label>
+                      <input type="text" class="form-control" id="#" aria-describedby="#" placeholder="">
+                    </div>
+                    <div class="form-group">
+                      <label>დაბადების თარიღი</label>
+                      <input type="text" class="form-control" id="#" aria-describedby="#" placeholder="">
+                    </div>
+                    <div class="form-group ">
+                      <label>სქესი</label>
+                      <select id="inputState" class="form-control">
+                        <option selected></option>
+                        <option>1</option>
+                        <option>2</option>
+                      </select>
+                    </div>
+                    <button type="submit" class="btn btn_check">შემოწმება</button>
+                    <button type="submit" class="btn btn_check">ვერიფიკაცია</button>
+                  </div>
+                  <div class="col-12 col-sm-6 text-right">
+                    <a class="btn active_b button_sub">ფიზიკური პირი</a>
+                    <a class="btn button_sub"  data-toggle="modal" data-target="#verification_two_modal">იურიდიული პირი</a>
+                  </div>
+                </div>
+              </form>
+            </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <div class="modal fade" id="verification_two_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="importModalTitle">ვერიფიკაცია</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+            <section class="container reg_blok">
+              <form>
+                <div class="row">
+                  <div class="col-12 col-sm-6">
+                    <div class="form-group">
+                      <label for="pn">საიდენტიფიკაციო #</label>
+                      <input type="text" class="form-control verif_b" id="#" aria-describedby="#" placeholder="">
+                      <button type="submit" class="btn btn_check">შემოწმება</button>
+                      <button type="submit" class="btn btn_check" >ვერიფიკაცია</button>
+                    </div>
+                    
+                  </div>
+                  
+                  <div class="col-12 col-sm-6 text-right">
+                    <a class="btn  button_sub" data-toggle="modal" data-target="#verification_two_modal">ფიზიკური პირი</a>
+                    <a class="btn active_b button_sub" >იურიდიული პირი</a>
+                  </div>
+                 
+                </div>
+                
+              </form>
+            </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -257,6 +398,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script>
+    $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+    </script>
 </body>
 
 </html>
